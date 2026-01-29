@@ -5,7 +5,7 @@ export default (state, action) => {
             return {
                 ...state,
                 transactions: state.transactions.filter(
-                    transactions => transactions.id !== action.payload
+                    transaction => transaction.id !== action.payload
                 )
             }
         default:
