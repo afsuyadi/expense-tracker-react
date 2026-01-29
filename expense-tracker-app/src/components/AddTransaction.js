@@ -7,8 +7,8 @@ export const AddTransaction = () => {
     <div>
         <h3>Add new transaction</h3>
       <form id="form">
-        <div clasNames="form-control">
-          <label htmlFfor="text">Text</label>
+        <div className="form-control">
+          <label htmlFor="text">Text</label>
           <input type="text" value={text} onChange={(e) => setText(e.target.value)} id="text" placeholder="Enter text..." />
         </div>
         <div className="form-control">
