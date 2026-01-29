@@ -23,6 +23,7 @@ export const GlobalProvider = ({children}) => {
             type : 'DELETE_TRANSACTION',
             payload : id
         })
+        console.log('deleting...')
     }
     return (<GlobalContext.Provider value={{
         transactions : state.transactions,
